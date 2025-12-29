@@ -5,7 +5,7 @@ const EXPERIENCE = [
     title: "Python Intern",
     company: "Skillbit Technologies",
     location: "Remote",
-    period: "December 2025 - Present 2025",
+    period: "December 2025 - Present ",
     description: "Contributed to core Python development initiatives, focusing on AI-driven workflows.",
     bullets: [
       "Engineered automated AI workflows, reducing manual processing time by 40%.",
@@ -118,4 +118,5 @@ export default function Experience() {
     </section>
   );
 }
+
 

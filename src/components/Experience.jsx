@@ -14,7 +14,7 @@ const EXPERIENCE = [
     ],
   },
   {
-    title: "Intern",
+    title: " Web Dev Intern",
     company: "InternPe",
     location: "Remote",
     period: "July 2024 - August 2024",
@@ -118,5 +118,6 @@ export default function Experience() {
     </section>
   );
 }
+
 
 

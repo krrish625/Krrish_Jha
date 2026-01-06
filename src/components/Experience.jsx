@@ -2,6 +2,19 @@ import { motion, useReducedMotion } from "framer-motion";
 
 const EXPERIENCE = [
   {
+      title: "Machine Learning Intern",
+      company: "Saiket Systems",
+      location: "Remote",
+      period: "January 2026 - Present",
+     description: "Worked on end-to-end machine learning solutions, focusing on data analysis, model development, and AI-driven problem solving.",
+     bullets: [
+        "Developed and trained machine learning models for real-world datasets using Python and popular ML libraries.",
+        "Performed data cleaning, feature engineering, and exploratory data analysis to improve model accuracy.",
+        "Implemented supervised learning algorithms for prediction and classification tasks.",
+        "Collaborated with the team to evaluate model performance and optimize algorithms for better results."
+        ],
+    },
+  {
     title: "Python Intern",
     company: "Skillbit Technologies",
     location: "Remote",
@@ -118,6 +131,7 @@ export default function Experience() {
     </section>
   );
 }
+
 
 
 

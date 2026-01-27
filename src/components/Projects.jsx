@@ -36,10 +36,20 @@ const PROJECTS = [
   },
   {
     name: "Heart Disease Prediction System",
-    points: ["Logistic Regression & Random Forest", "Achieved 80% accuracy"],
+    points: ["ML + NLP-based classification", "Achieved 80% accuracy"],
     tags: ["ML", "Classification"],
     github: `${GITHUB_REPO_SEARCH_BASE}heart%20disease`,
   },
+  {
+  name: "Customer Churn Prediction System",
+  points: [
+    "Built a machine learning model to predict customer churn",
+    "Performed data preprocessing, feature engineering, and model evaluation",
+    "Used classification algorithms to identify high-risk customers"
+  ],
+  tags: ["Machine Learning", "Classification", "Data Analysis"],
+  github: `${GITHUB_REPO_SEARCH_BASE}customer%20churn`,
+},
 ];
 
 export default function Projects() {
@@ -140,3 +150,4 @@ export default function Projects() {
     </section>
   );
 }
+

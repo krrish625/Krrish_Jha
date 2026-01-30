@@ -5,7 +5,7 @@ const EXPERIENCE = [
       title: "Machine Learning Intern",
       company: "Saiket Systems",
       location: "Remote",
-      period: "January 2026 - Present",
+      period: "January 2026 - Febuary 2026",
      description: "Worked on end-to-end machine learning solutions, focusing on data analysis, model development, and AI-driven problem solving.",
      bullets: [
         "Developed and trained machine learning models for real-world datasets using Python and popular ML libraries.",
@@ -131,6 +131,7 @@ export default function Experience() {
     </section>
   );
 }
+
 
 
 
